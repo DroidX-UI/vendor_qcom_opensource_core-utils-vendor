@@ -11,6 +11,8 @@
 using namespace std;
 using aidl::android::hardware::thermal::Temperature;
 using aidl::android::hardware::thermal::IThermal;
+using aidl::android::hardware::thermal::TemperatureType;
+
 int main() {
     const string instance = string() + IThermal::descriptor + "/default";
     ndk::SpAIBinder binder(AServiceManager_waitForService(instance.c_str()));
