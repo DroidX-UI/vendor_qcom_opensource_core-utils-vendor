@@ -10,5 +10,4 @@ cc_test{
         "android.hardware.thermal-V1-ndk",
     ],
     sanitize: {cfi: false},
-    relative_install_path: "nativetest64",
 }
