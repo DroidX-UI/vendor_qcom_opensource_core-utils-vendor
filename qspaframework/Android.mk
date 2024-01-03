@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := qspa.rc
+LOCAL_MODULE       := qspa_vendor.rc
 LOCAL_MODULE_TAGS  := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := $(LOCAL_MODULE)
